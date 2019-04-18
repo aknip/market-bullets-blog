@@ -1,0 +1,22 @@
+/* bullet point lists */
+.bullet li {
+	margin-left: 20px; 
+	list-style: square;
+}
+
+.bullet.medium li {
+  font-size: 18px;
+  line-height: 1.36;
+  margin-bottom: 4px;
+}
+
+.bullet.small li {
+  font-size: 16px;
+  line-height: 1.36;
+  margin-bottom: 2px;
+}
+
+/* hide logo in menu bar on first slide / home page */
+.firstSlide .logo-menu {
+  display: none!important
+}
